@@ -3,17 +3,18 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectContainer.css'
 import React from 'react'
-
+import PropTypes from 'prop-types';
 // const ProjectContainer = ({project}) => (
   function ProjectContainer({project}){
+   console.log(project)
     return(
   <div className='project'>
     <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
+    <p className='project__description'>{props.project.description}</p> 
+    {props.project.stack && (
       <ul className='project__stack'>
-        {project.stack.map((item) => (
+        {props.project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
             {item}
           </li>
@@ -21,9 +22,9 @@ import React from 'react'
       </ul>
     )}
 
-    {project.sourceCode && (
+    {props.project.sourceCode && (
       <a
-        href={project.sourceCode}
+        href={props.project.sourceCode}
         aria-label='source code'
         className='link link--icon'
       >
@@ -31,9 +32,9 @@ import React from 'react'
       </a>
     )}
 
-    {project.livePreview && (
+    {props.project.livePreview && (
       <a
-        href={project.livePreview}
+        href={props.project.livePreview}
         aria-label='live preview'
         className='link link--icon'
       >
@@ -43,4 +44,13 @@ import React from 'react'
   </div>
   )}
 
-export default ProjectContainer
+   // const {name, description,stack,sourceCode, livePreview} = project
+  ProjectContainer.propTypes = {
+    name: PropTypes.string.isRequired ,
+description: PropTypes.string.isRequired,
+stack: PropTypes.arrayOf(PropTypes.string),
+sourceCode: PropTypes.string.isRequired,
+livePreview:PropTypes.string.isRequired
+  }
+
+export default ProjectContainer;

@@ -1,15 +1,15 @@
 const header = {
     // all the properties are optional - can be left empty or deleted
     homepage: 'https://rajshekhar26.github.io/cleanfolio',
-    title: 'JS.',
+    title: 'CD.',
   }
   
   const about = {
     // all the properties are optional - can be left empty or deleted
-    name: 'John Smith',
+    name: 'Diane Compaoré',
     role: 'Front End Engineer',
     description:
-      'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+      'My name is Diane Compaore, I am seeking a JavaScript/React developer position. I possess an associate in health sciences from Houston Community College. I hold a certificate in software engineering from Flatiron school. I am specializing in html, CSS, JavaScript, React and bootstrap .',
     resume: 'https://example.com',
     social: {
       linkedin: 'https://linkedin.com',

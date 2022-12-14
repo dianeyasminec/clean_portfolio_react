@@ -5,44 +5,43 @@ const header = {
   }
   
   const about = {
-    // all the properties are optional - can be left empty or deleted
+  
     name: 'Diane Compaoré',
     role: 'Front End Engineer',
     description:
       'My name is Diane Compaore, I am seeking a JavaScript/React developer position. I possess an associate in health sciences from Houston Community College. I hold a certificate in software engineering from Flatiron school. I am specializing in html, CSS, JavaScript, React and bootstrap .',
     resume: 'https://example.com',
     social: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com',
+      linkedin: 'https://www.linkedin.com/in/cd8/',
+      github: 'https://github.com/dianeyasminec',
     },
   }
   
   const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
+    
     {
       name: 'Project 1',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'Created an E-commerce application from scratch that displays a list of soaps from a db.json file. Users are able to add to the cart, delete from the cart, and update the total price by increasing/decreasing the number of items.',
+      stack: [ 'React', 'Bootstrap'],
+      sourceCode: 'https://github.com/dianeyasminec/E-commerce-with-React.js',
+      livePreview: 'https://e-commerce-with-react-js.vercel.app/',
     },
     {
       name: 'Project 2',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'Developed a song lyrics app that allows users to search through a fetch API for any artist, then display 10 popular songs of the artist. Routers are integrated into the application to facilitate the navigation between the components.',
+      stack: ['React', 'Bootstrap'],
+      sourceCode: 'https://github.com/dianeyasminec/Lyrics_generator_React',
+      livePreview: 'https://lyrics-generator-react.vercel.app/',
     },
     {
       name: 'Project 3',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'Single page application built entirely with react.js and Bootstrap 5. Biography of author Chimamanda Ngozi Adichie and her popular books.',
+      stack: ['React', 'Bootstrap'],
+      sourceCode: 'https://github.com/dianeyasminec/Chimamanda-Ngozi-Adichie-',
+      livePreview: 'https://chimamanda-ngozi-adichie.vercel.app/',
     },
   ]
   
@@ -52,20 +51,16 @@ const header = {
     'HTML',
     'CSS',
     'JavaScript',
-    'TypeScript',
     'React',
-    'Redux',
-    'SASS',
+    'Bootstrap',
+    'Node.js',
     'Material UI',
-    'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
+    'Git'
   ]
   
   const contact = {
-    // email is optional - if left empty Contact section won't show up
-    email: 'johnsmith@mail.com',
+    
+    email: 'dianeyasminec60@gmail.com',
   }
   
   export { header, about, projects, skills, contact }

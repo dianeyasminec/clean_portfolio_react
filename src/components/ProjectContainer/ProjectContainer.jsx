@@ -6,7 +6,6 @@ import React from 'react'
 
 // const ProjectContainer = ({project}) => (
   function ProjectContainer({project}){
-    console.log(project)
     return(
   <div className='project'>
     <h3>{project.name}</h3>

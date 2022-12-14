@@ -4,7 +4,7 @@ import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Projects.css'
 import React from 'react'
 
-const Projects = () => {
+function Projects () {
   if (!projects.length) return null
 
   return (

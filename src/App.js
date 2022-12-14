@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import React,{ useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'

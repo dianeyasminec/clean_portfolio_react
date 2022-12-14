@@ -2,8 +2,12 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectContainer.css'
+import React from 'react'
 
-const ProjectContainer = ({ project }) => (
+// const ProjectContainer = ({project}) => (
+  function ProjectContainer({project}){
+    console.log(project)
+    return(
   <div className='project'>
     <h3>{project.name}</h3>
 
@@ -38,6 +42,6 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
   </div>
-)
+  )}
 
 export default ProjectContainer

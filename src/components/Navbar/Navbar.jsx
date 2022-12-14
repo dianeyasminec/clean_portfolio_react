@@ -1,6 +1,6 @@
-import { useContext, useState } from 'react'
+import React,{ useContext, useState } from 'react'
 import Brightness2Icon from '@mui/icons-material/Brightness2';
-// import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { ThemeContext } from '../../contexts/theme'

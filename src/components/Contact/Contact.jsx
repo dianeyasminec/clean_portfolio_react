@@ -1,4 +1,4 @@
-import { contact } from '../../portfolio'
+import React,{ contact } from '../../portfolio'
 import './Contact.css'
 
 const Contact = () => {

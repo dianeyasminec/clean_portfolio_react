@@ -1,5 +1,5 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
+    
     homepage: '',
     title: 'CD.',
   }
@@ -10,7 +10,7 @@ const header = {
     role: 'Front End Engineer',
     description:
       'My name is Diane Compaore, I am seeking a JavaScript/React developer position. I possess an associate in health sciences from Houston Community College. I hold a certificate in software engineering from Flatiron school. I am specializing in html, CSS, JavaScript, React and bootstrap .',
-    resume: 'https://example.com',
+    resume: '',
     social: {
       linkedin: 'https://www.linkedin.com/in/cd8/',
       github: 'https://github.com/dianeyasminec',
@@ -46,8 +46,7 @@ const header = {
   ]
   
   const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
+    
     'HTML',
     'CSS',
     'JavaScript',

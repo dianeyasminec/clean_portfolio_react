@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://github.com/dianeyasminec/clean_portfolio_react'
+
       className='link footer__link'
     >
       Created By Diane Compaoré

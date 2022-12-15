@@ -3,12 +3,12 @@ import React from 'react'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
+    {/* <a
 
       className='link footer__link'
     >
       Created By Diane Compaoré
-    </a>
+    </a> */}
   </footer>
 )
 

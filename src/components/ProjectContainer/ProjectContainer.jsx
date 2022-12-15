@@ -5,16 +5,23 @@ import './ProjectContainer.css'
 import React from 'react'
 import PropTypes from 'prop-types';
 // const ProjectContainer = ({project}) => (
-  function ProjectContainer({project}){
-   console.log(project)
+  function ProjectContainer(props){
+  //  console.log(project.name)
+   const {
+    name, 
+    stack, 
+    description,
+    sourceCode, 
+    livePreview
+   } = props
     return(
   <div className='project'>
-    <h3>{project.name}</h3>
+    <h3>{name}</h3>
 
-    <p className='project__description'>{props.project.description}</p> 
-    {props.project.stack && (
+    <p className='project__description'>{description}</p> 
+    {stack && (
       <ul className='project__stack'>
-        {props.project.stack.map((item) => (
+        {stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
             {item}
           </li>
@@ -22,21 +29,23 @@ import PropTypes from 'prop-types';
       </ul>
     )}
 
-    {props.project.sourceCode && (
+    {sourceCode && (
       <a
-        href={props.project.sourceCode}
+        href={sourceCode}
         aria-label='source code'
         className='link link--icon'
+        target="_blank" rel="noopener noreferrer"
       >
         <GitHubIcon />
       </a>
     )}
 
-    {props.project.livePreview && (
+    {livePreview && (
       <a
-        href={props.project.livePreview}
+        href={livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target="_blank" rel="noopener noreferrer"
       >
         <LaunchIcon />
       </a>

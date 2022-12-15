@@ -28,7 +28,7 @@ const header = {
       livePreview: 'https://e-commerce-with-react-js.vercel.app/',
     },
     {
-      name: 90,
+      name: 'Project 2',
       description:
         'Developed a song lyrics app that allows users to search through a fetch API for any artist, then display 10 popular songs of the artist. Routers are integrated into the application to facilitate the navigation between the components.',
       stack: ['React', 'Bootstrap'],

@@ -9,7 +9,7 @@ const header = {
     name: 'Diane Compaoré',
     role: 'Front End Engineer',
     description:
-      'My name is Diane Compaore, I am seeking a JavaScript/React developer position. I possess an associate in health sciences from Houston Community College. I hold a certificate in software engineering from Flatiron school. I am specializing in html, CSS, JavaScript, React and bootstrap .',
+      'My name is Diane Compaoré, I am looking for a job as a JavaScript/React Engineer. I have a certificate in software engineering from the Flatiron School. I specialize in HTML, CSS, JavaScript, React, Bootstrap, Node.js and VScode.',
     resume: '',
     social: {
       linkedin: 'https://www.linkedin.com/in/cd8/',

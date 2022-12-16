@@ -108,7 +108,7 @@ main {
 .btn--outline:before {
   content: '';
   position: absolute;
-  background-color: var(--clr-primary);
+  background-color: #a44706;
   right: 100%;
   bottom: 0;
   left: 0;

@@ -1,7 +1,7 @@
 const header = {
     
     homepage: '',
-    title: 'CD.',
+    title: 'DC.',
   }
   
   const about = {

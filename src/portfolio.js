@@ -22,7 +22,7 @@ const header = {
     {
       name: 'Project 1',
       description:
-        '●	Developed an E-commerce website that displays homemade soaps. The technologies used were React, Node, CSS, HTML, and JavaScript. Improve navigation between components with routers and connect the front-end and back-end via JSON file. Users can add to cart, delete from the cart, and update the total price by increasing or decreasing the number of items.',
+        'Developed an E-commerce website that displays homemade soaps. The technologies used were React, Node, CSS, HTML, and JavaScript. Improve navigation between components with routers and connect the front-end and back-end via JSON file. Users can add to cart, delete from the cart, and update the total price by increasing or decreasing the number of items.',
       stack: [ 'React', 'Bootstrap'],
       sourceCode: 'https://github.com/dianeyasminec/E-commerce-with-React.js',
       livePreview: 'https://e-commerce-with-react-js.vercel.app/',

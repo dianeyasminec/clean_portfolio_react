@@ -38,10 +38,10 @@ const header = {
     {
       name: 'Project 3',
       description:
-        'Generate a single page website built with React and Bootstrap. Biography of author Chimamanda Ngozi Adichie and her popular books displayed through a JavaScript method.',
-      stack: ['React', 'Bootstrap'],
-      sourceCode: 'https://github.com/dianeyasminec/Chimamanda-Ngozi-Adichie-',
-      livePreview: 'https://chimamanda-ngozi-adichie.vercel.app/',
+        'Re-created Wordle Game which is a web-based word game, Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.Developed the game using react.js and json file',
+      stack: ['React', 'JSON Server'],
+      sourceCode: 'https://github.com/dianeyasminec/Wordle-Clone',
+      livePreview: 'https://wordle-clone-kohl-ten.vercel.app/',
     },
   ]
   

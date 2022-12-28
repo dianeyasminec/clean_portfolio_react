@@ -35,16 +35,9 @@ const header = {
       sourceCode: 'https://github.com/dianeyasminec/Lyrics_generator_React',
       livePreview: 'https://lyrics-generator-react.vercel.app/',
     },
+   
     {
       name: 'Project 3',
-      description:
-        'Created Wordle Game which is a web-based word game, Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.Developed the game using react.js and json file',
-      stack: ['React', 'JSON Server'],
-      sourceCode: 'https://github.com/dianeyasminec/Wordle-Clone',
-      livePreview: 'https://wordle-clone-kohl-ten.vercel.app/',
-    },
-    {
-      name: 'Project 4',
       description:
         ' Generate a single page website built with React and Bootstrap. Biography of author Chimamanda Ngozi Adichie and her popular books displayed through a JavaScript method.',
       stack: ['React', 'Bootstrap'],

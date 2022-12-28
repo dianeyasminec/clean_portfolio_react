@@ -38,7 +38,7 @@ const header = {
     {
       name: 'Project 3',
       description:
-        'Re-created Wordle Game which is a web-based word game, Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.Developed the game using react.js and json file',
+        'Created Wordle Game which is a web-based word game, Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word.Developed the game using react.js and json file',
       stack: ['React', 'JSON Server'],
       sourceCode: 'https://github.com/dianeyasminec/Wordle-Clone',
       livePreview: 'https://wordle-clone-kohl-ten.vercel.app/',

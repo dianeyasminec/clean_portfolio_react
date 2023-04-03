@@ -30,10 +30,10 @@ const header = {
     {
       name: 'Project 2',
       description:
-        "	Recreated and improved the Genius website, which is the world’s biggest collection of song lyrics and musical knowledge.	Implemented the front- end using React, the site fetches data from the search API and uploads it on the page when the user enters the artists name. Integrated lyrics search API to search for, filter and display 10 of the design artist's most popular songs. Utilized routers to improve navigation between components",
+        "	A recipe application has been developed using React.js and Bootstrap, allowing users to explore a wide range of recipes including gluten-free, meats, and fish. The application incorporates a router that facilitates navigation between four distinct components: a section that provides information about the company and its services, an area displaying all recipes retrieved from a built-in data store in array objects, a reviews section where users can view and engage with various reviews, and a help section featuring frequently asked questions and contact information.",
       stack: ['React', 'Bootstrap'],
-      sourceCode: 'https://github.com/dianeyasminec/Lyrics_generator_React',
-      livePreview: 'https://lyrics-generator-react.vercel.app/',
+      sourceCode: 'https://github.com/dianeyasminec/RecipesAPP',
+      livePreview: 'https://recipes-five-flame.vercel.app/',
     },
    
     {

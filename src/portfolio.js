@@ -22,20 +22,21 @@ const header = {
     {
       name: 'Project 1',
       description:
-        'Developed an E-commerce website that displays homemade soaps. The technologies used were React, Node, CSS, HTML, and JavaScript. Improve navigation between components with routers and connect the front-end and back-end via JSON file. Users can add to cart, delete from the cart, and update the total price by increasing or decreasing the number of items.',
-      stack: [ 'React', 'Bootstrap'],
-      sourceCode: 'https://github.com/dianeyasminec/E-commerce-with-React.js',
-      livePreview: 'https://e-commerce-with-react-js.vercel.app/',
-    },
-    {
-      name: 'Project 2',
-      description:
         "	A recipe application has been developed using React.js and Bootstrap, allowing users to explore a wide range of recipes including gluten-free, meats, and fish. The application incorporates a router that facilitates navigation between four distinct components: a section that provides information about the company and its services, an area displaying all recipes retrieved from a built-in data store in array objects, a reviews section where users can view and engage with various reviews, and a help section featuring frequently asked questions and contact information.",
       stack: ['React', 'Bootstrap'],
       sourceCode: 'https://github.com/dianeyasminec/RecipesAPP',
       livePreview: 'https://recipes-five-flame.vercel.app/',
     },
-   
+
+    {
+      name: 'Project 2',
+      description:
+        'Developed an E-commerce website that displays homemade soaps. The technologies used were React, Node, CSS, HTML, and JavaScript. Improve navigation between components with routers and connect the front-end and back-end via JSON file. Users can add to cart, delete from the cart, and update the total price by increasing or decreasing the number of items.',
+      stack: [ 'React', 'Bootstrap'],
+      sourceCode: 'https://github.com/dianeyasminec/E-commerce-with-React.js',
+      livePreview: 'https://e-commerce-with-react-js.vercel.app/',
+    },
+    
     {
       name: 'Project 3',
       description:

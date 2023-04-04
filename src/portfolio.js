@@ -57,9 +57,11 @@ const header = {
     'Node.js',
     'VS Code',
     'Material UI',
+    'Git',
     'Github',
     'Scrum',
-    'Firebase'
+    'Firebase',
+    'French'
   ]
   
   const contact = {

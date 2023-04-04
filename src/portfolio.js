@@ -25,7 +25,7 @@ const header = {
         "	A recipe application has been developed using React.js and Bootstrap, allowing users to explore a wide range of recipes including gluten-free, meats, and fish. The application incorporates a router that facilitates navigation between four distinct components: a section that provides information about the company and its services, an area displaying all recipes retrieved from a built-in data store in array objects, a reviews section where users can view and engage with various reviews, and a help section featuring frequently asked questions and contact information.",
       stack: ['React', 'Bootstrap'],
       sourceCode: 'https://github.com/dianeyasminec/RecipesAPP',
-      livePreview: 'https://recipes-five-flame.vercel.app/',
+      livePreview: 'https://green-eats-recipe.vercel.app/',
     },
 
     {

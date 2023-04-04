@@ -7,9 +7,9 @@ const header = {
   const about = {
   
     name: 'Diane Compaoré',
-    role: 'Front End Engineer',
+    role: 'Front-end Developer',
     description:
-      'My name is Diane Compaoré, I am looking for a job as a JavaScript/React Engineer. I have a certificate in software engineering from the Flatiron School Bootcamp. I specialize in HTML, CSS, JavaScript, React, Bootstrap, Node.js, VScode and French.',
+      "Bonjour! I'm Diane Compaoré, a highly motivated JavaScript/React Engineer with a passion for creating elegant and intuitive web applications. Equipped with a certificate in software engineering from the prestigious Flatiron School Bootcamp, I have honed my expertise in a wide range of technologies, including HTML, CSS, JavaScript, React, Bootstrap, Node.js, and VScode. Driven by my desire to build innovative solutions that solve complex problems, I have developed a diverse portfolio of projects that showcase my creativity and technical proficiency. My strong communication skills and fluency in French make me a valuable team player who can collaborate seamlessly with colleagues and clients from diverse backgrounds. If you're looking for a talented JavaScript/React Engineer who can bring your vision to life, then look no further. Let's connect and build something amazing together!.",
     resume: '',
     social: {
       linkedin: 'https://www.linkedin.com/in/cd8/',
@@ -31,7 +31,7 @@ const header = {
     {
       name: 'Project 2',
       description:
-        'Developed an E-commerce website that displays homemade soaps. The technologies used were React, Node, CSS, HTML, and JavaScript. Improve navigation between components with routers and connect the front-end and back-end via JSON file. Users can add to cart, delete from the cart, and update the total price by increasing or decreasing the number of items.',
+        'Developed a visually stunning E-commerce website that showcases a variety of handcrafted soaps. Powered by cutting-edge technologies such as React, Node, CSS, HTML, and JavaScript, this dynamic platform seamlessly connects the front-end and back-end via a JSON file. To enhance user experience, integrated routers were used to streamline navigation between components. The website allows customers to easily add items to their carts, update quantities, and delete products. With a user-friendly interface and customizable options, this website is the perfect destination for soap enthusiasts to find their favorite products and make purchases with ease.',
       stack: [ 'React', 'Bootstrap'],
       sourceCode: 'https://github.com/dianeyasminec/E-commerce-with-React.js',
       livePreview: 'https://e-commerce-with-react-js.vercel.app/',
@@ -55,8 +55,11 @@ const header = {
     'React',
     'Bootstrap',
     'Node.js',
+    'VS Code',
     'Material UI',
-    'Git'
+    'Github',
+    'Scrum',
+    'Firebase'
   ]
   
   const contact = {

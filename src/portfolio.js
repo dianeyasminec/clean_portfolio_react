@@ -40,7 +40,7 @@ const header = {
     {
       name: 'Project 3',
       description:
-        ' Design a visually appealing one-page website using React and Bootstrap to showcase the biography of author Chimamanda Ngozi Adichie and her renowned books, while implementing a JavaScript function to display the content.',
+        "Created a one-page website showcasing Chimamanda Ngozi Adichie's biography and books using React and Bootstrap. To make the website more interactive, I incorporated a JavaScript function to display the content dynamically. This project demonstrates my proficiency in front-end development and design",
       stack: ['React', 'Bootstrap'],
       sourceCode: 'https://github.com/dianeyasminec/Chimamanda-Ngozi-Adichie-',
       livePreview: 'https://chimamanda-ngozi-adichie.vercel.app/',
